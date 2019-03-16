@@ -7,16 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-	<form action="RequestDemo3" method="get">
-		<input type="text" name="firstname" placeholder="First Name" /><br />
-		<input type="text" name="lastname" placeholder="Last Name" /><br />
-		<input type="text" name="gendername" placeholder="Gender" /><br /> <input
-			type="text" name="mobileno" placeholder="Mobile No." /><br /> <input
-			type="text" name="emailaddress" placeholder="Email Address" /><br />
-		<input type="submit" />
-	</form>
-
-
+	<ol>
+		<li><a href="RequestDispatcherDemo">sendRedict() Demo..</a></li>
+		<li><a
+			href="RequestDemo2?firstname=nayan&lastname=mali&gendername=male&mobileno=9687100068&emailaddress=it@gmail.com">sendRedict()
+				Demo.. With Custom Request Demo</a></li>
+	</ol>
 </body>
 </html>

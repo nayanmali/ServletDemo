@@ -7,8 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-
-	<form action="RequestDemo3" method="get">
+	<form action="RequestDemo2" method="get">
 		<input type="text" name="firstname" placeholder="First Name" /><br />
 		<input type="text" name="lastname" placeholder="Last Name" /><br />
 		<input type="text" name="gendername" placeholder="Gender" /><br /> <input
@@ -16,7 +15,5 @@
 			type="text" name="emailaddress" placeholder="Email Address" /><br />
 		<input type="submit" />
 	</form>
-
-
 </body>
 </html>

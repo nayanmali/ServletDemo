@@ -39,4 +39,14 @@
     <servlet-name>RequestDemo3</servlet-name>
     <url-pattern>/RequestDemo3</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RequestDispatcherDemo</display-name>
+    <servlet-name>RequestDispatcherDemo</servlet-name>
+    <servlet-class>in.ac.adit.servlet.demo2.RequestDispatcherDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RequestDispatcherDemo</servlet-name>
+    <url-pattern>/RequestDispatcherDemo</url-pattern>
+  </servlet-mapping>
 </web-app>
