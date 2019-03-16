@@ -19,4 +19,24 @@
     <servlet-name>RequestDemo</servlet-name>
     <url-pattern>/RequestDemo</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RequestDemo2</display-name>
+    <servlet-name>RequestDemo2</servlet-name>
+    <servlet-class>in.ac.adit.servlet.RequestDemo2</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RequestDemo2</servlet-name>
+    <url-pattern>/RequestDemo2</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RequestDemo3</display-name>
+    <servlet-name>RequestDemo3</servlet-name>
+    <servlet-class>in.ac.adit.servlet.RequestDemo3</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RequestDemo3</servlet-name>
+    <url-pattern>/RequestDemo3</url-pattern>
+  </servlet-mapping>
 </web-app>
